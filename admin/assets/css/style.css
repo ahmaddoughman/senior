@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.content_admin{
+    display: flex;
+    margin: auto;
+}
+.right{
+    position: fixed;
+    z-index: 100;
+    width: 350px;
+    height: 100vh;  
+    background: rgb(99, 98, 98);
+}
+.profile-photo{
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.icons-profile-photo img{
+    margin-top: -40px;
+    margin-left: 25px;
+    width: 300px;
+}
+.dashboard{
+    margin-left: 20px;      
+}
+.name_admin{
+    border: none;
+    width: 100px;
+    font-size: x-large;
+    color: black;
+    outline: none; 
+    background: none;
+}
+.right .admin_name{
+    margin-top: -60px;
+    margin-left: calc(50% - 50px);
+}
+.dashboard {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.dashboard a{
+    text-decoration: none;
+    color: black;
+}
+.dashboard h2{
+    display: inline-block;
+}
+.dashboard a.active {
+    max-width: 170px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding: 6px;
+}
+.dashboard a.active1 h2.Logout_admin {
+    width: 170px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 6px;
+}
+
+.dashboard h2::before {
+    content: "\2022"; 
+    margin-right: 10px;
+}
+.Logout_admin{
+    margin-top: 40px;
+}
+.left{
+    width: calc(100% - 350px);  
+    margin-left: 350px;
+}
+.Category {
+    margin-top: 60px;
+    color: black;
+    margin-left: 27px;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 30px;
+    width: fit-content;
+    padding-bottom: 5px;
+    border-bottom: 2px solid red;
+    font-size: xx-large;
+}
+.shop-category{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.image-container img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+/* page add products */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.content-Signup {
+    background-color: #360707;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.content-Signup h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.file_image {
+    margin-bottom: 20px;
+}
+
+#fileInput {
+    display: none; 
+}
+
+#fileLabel {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.content-Signup input[type="text"],
+textarea {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.Categorsss{
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+#back img {
+    width: 50px;
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* end add page*/
+
+/*start page update*/
+.container_update {
+    background-color: gray;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 100px auto;
+}
+
+.h2title{
+    margin-bottom: 20px;
+}
+#back_arrows img {
+    width: 50px;
+     position: absolute;
+    margin-left: -230px; 
+    margin-top: -12px;
+    cursor: pointer;
+}
+.new_description{
+    margin-top: 10px;
+}
+/*end page update*/
+
+
+/*start page customers*/
+.content-customers{
+    margin-top: 30px;
+}
+/*end page customers*/
+
